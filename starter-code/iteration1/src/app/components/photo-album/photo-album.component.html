@@ -1,0 +1,9 @@
+
+<section>
+  <article *ngFor="let slide of slides">
+    <figure>
+      <img src="{{ slide.image }}" alt="{{ slide.description }}">
+      <figcaption>{{ slide.description }}</figcaption>
+    </figure>
+  </article>
+</section>
